@@ -1,0 +1,21 @@
+ # Environment
+.env
+.venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Test/cache artifacts
+.pytest_cache/
+.mypy_cache/
+
+# RAG artifacts
+data/embedded_data.pkl
+
+# Optional large model/checkpoint artifacts
+*.ckpt
+*.pt
+*.pth
+*.bin
+*.safetensors
